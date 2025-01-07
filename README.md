@@ -30,19 +30,11 @@ training_history.json: JSON file storing training performance metrics.
 How It Works:
 
 Load Data: Reads historical ES Futures data and sorts it by date.
-Preprocessing:
-Normalizes the opening prices to a range of 0 to 1.
-Creates sequences of length 60 for training.
-Model Training:
-Defines an LSTM-based RNN with multiple layers.
-Trains the model using early stopping to avoid overfitting.
-Evaluation:
-Predicts prices on the test set and rescales them to the original scale.
-Calculates RMSE to evaluate prediction accuracy.
-Visualization:
-Plots the true prices vs. predicted prices.
-Save Results:
-Saves the best model, predictions, and training history.
+Preprocessing: Normalizes the opening prices to a range of 0 to 1. Creates sequences of length 60 for training.
+Model Training: Defines an LSTM-based RNN with multiple layers. Trains the model using early stopping to avoid overfitting.
+Evaluation: Predicts prices on the test set and rescales them to the original scale. Calculates RMSE to evaluate prediction accuracy.
+Visualization: Plots the true prices vs. predicted prices.
+Save Results: Saves the best model, predictions, and training history.
 
 Usage:
 
@@ -53,9 +45,8 @@ os.chdir('your_file_directory')
 Prepare Data:
 
 Ensure the es_futures.csv file is in the correct format and location.
-Run the Script:
-Execute the script:
-python your_script_name.py
+
+Execute the script: python your_script_name.py
 
 View Results:
 
