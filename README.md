@@ -19,6 +19,7 @@ You can install these libraries using:
 pip install numpy pandas joblib scikit-learn matplotlib tensorflow
 
 Files and Structure:
+
 es_futures.csv: Input CSV file containing historical ES Futures data. Ensure it follows the required structure:
 Skip the first two rows (headers).
 Columns: ['Adj Close', 'Close', 'High', 'Low', 'Open', 'Volume'].
