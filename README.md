@@ -13,18 +13,9 @@ Export Results: Saves predictions, training history, and the best-performing mod
 
 Prerequisites:
 
-Install the following Python libraries before running the script:
-
-numpy
-pandas
-json
-joblib
-scikit-learn
-matplotlib
-tensorflow
+Install the following Python libraries before running the script: numpy, pandas, json, joblib, scikit-learn, matplotlib, tensorflow
 
 You can install these libraries using:
-
 pip install numpy pandas joblib scikit-learn matplotlib tensorflow
 
 Files and Structure:
